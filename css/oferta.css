@@ -1,0 +1,385 @@
+@font-face {
+    font-family: Roboto-Light;
+    font-style: normal;
+    font-weight: 300;
+    src: url("") format("woff2"),url("") format("woff");
+}
+
+@font-face {
+    font-family: Mundo;
+    font-style: normal;
+    font-weight: 800;
+    src: url("urn:scrapbook:download:error:https://hzycso.com/baihuzi/static/Mundo-ExtraBold-1.woff2") format("woff2"), url("urn:scrapbook:download:error:https://hzycso.com/baihuzi/static/Mundo-ExtraBold-1.woff") format("woff");
+    font-display: swap
+}
+@font-face {
+    font-family: Mundo;
+    font-style: normal;
+    font-weight: 300;
+    src: url("urn:scrapbook:download:error:https://hzycso.com/baihuzi/static/Mundo-Light-1.woff2") format("woff2"), url("urn:scrapbook:download:error:https://hzycso.com/baihuzi/static/Mundo-Light-1.woff") format("woff");
+    font-display: swap
+}
+
+
+
+.portada header[data-theme=elmundo-theme] .ue-c-main-header__subscription--hightlighted a {
+    text-decoration: none;
+    padding: 0;
+    background-color:  transparent;
+}
+
+.portada header[data-theme=elmundo-theme] .ue-c-main-header__subscription--hightlighted {
+    border-bottom-right-radius: 88px;
+    border-bottom-left-radius: 88px;
+    border-top: 0;
+    background-color: #F8F03E;
+    justify-content: center;
+    width: 88px;
+    height: 53px;
+   
+   
+   
+}
+
+.portada header[data-theme=elmundo-theme] .ue-c-main-header__subscription--hightlighted p {
+    text-align:  center;
+    color: #000;
+    display:  flex;
+    flex-direction:  column;
+}
+
+/* .ue-c-main-header__subscription--hightlighted span {
+    display: block;
+} */
+
+
+.portada header[data-theme=elmundo-theme] .ue-c-main-header__subscription--hightlighted .first-line {
+    font-family: Mundo;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 12px;
+}
+.portada header[data-theme=elmundo-theme] .ue-c-main-header__subscription--hightlighted .second-line {
+    font-family: Mundo;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 25px;
+    letter-spacing: -0.06em;
+    
+}
+
+.portada header[data-theme=elmundo-theme] .ue-c-main-header__subscription--hightlighted .third-line {
+    font-family: Roboto-Light;
+    font-weight: 300;
+    font-size: 9.5px;
+    line-height: 10px;
+    
+}
+
+@-moz-document url-prefix() {
+
+    .portada header[data-theme=elmundo-theme] .ue-c-main-header__subscription--hightlighted .second-line {
+        padding-top: 2px;
+    }
+
+    .portada header[data-theme=elmundo-theme] .ue-c-main-header__subscription--hightlighted .third-line {
+        margin-top: -3px;
+        line-height: 13px;
+    }
+}
+
+@media (max-width:46.20em) {
+    header[data-theme=elmundo-theme] .ue-c-main-header__subscription--hightlighted a{
+        padding:  3px 1px;
+    }
+
+    .portada header[data-theme=elmundo-theme] .ue-c-main-header__subscription--hightlighted .third-line { line-height: 13px; }
+}
+
+.header-restyle {
+    position: fixed;
+    top:0;
+}
+.header-restyle .ue-l-main-header__bottom {
+    display: none;
+}
+
+.content-prokl {
+
+}
+.content-prokl p.align-right {
+    text-align: right;
+}
+.content-prokl img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.superior {
+    font-size: 18px;
+    font-family: Mundo, Times New Roman, Times, serif;
+    color: #202020;
+    font-weight: 400;
+    line-height: 1.6875rem;
+    border: 1px solid #9cb5d3;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.superior h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.superior > img {
+
+}
+.superior p {
+    padding: 0 10px 15px;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.superior__footer {
+    text-align: center;
+}
+.superior__footer img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.superior__footer p {
+    font-size: 16px;
+}
+.superior__footer b {
+    font-size: 16px;
+    
+}
+.content-prokl {
+    
+}
+.content-prokl .title {
+    font-weight: bold !important;
+    background: #d5e8f7;
+    padding: 10px;
+}
+.content-prokl .title.pink {
+    background: #feecee;
+
+}
+.content-prokl .title-red {
+    font-weight: bold !important;
+    text-align: center;
+    background: #feecee !important;
+    color: red !important;;
+}
+.content-prokl p.center {
+    text-align: center;
+}
+.content-prokl ul {
+    font-family: Mundo, Times New Roman, Times, serif;
+    color: #202020;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.bold {
+    font-weight: bold !important;
+}
+ul.check {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+ul.check li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+ul.check li:before {
+    content: '';
+    display: block;
+    background: url("urn:scrapbook:download:error:https://hzycso.com/baihuzi/static/checking-mark.png") no-repeat 0 0/ contain !important;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.ul-num {
+    font-family: Mundo, Times New Roman, Times, serif;
+    color: #202020;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+.ul-num__item {
+    background: #fff6dd;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 0;
+}
+.ul-num__item span {
+    display: block;
+    position: absolute;
+    color:#fff;
+    top:0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #d8be3e;
+    font-weight: bold;
+}
+.ul-num__item p {
+    padding-left: 40px;
+    font-size: 17px;
+    line-height: 1.5em;
+}
+.ul-num__item p b {
+    font-size: 20px;
+}
+.ul-num > div:nth-child(2) {
+    background: #ffcf86;
+}
+.ul-num > div:nth-child(2) span {
+    background: #ee7816;
+}
+.ul-num > div:nth-child(3) {
+    background: #fdacb2;
+}
+.ul-num > div:nth-child(3) span {
+    background: #d50414;
+}
+.ul-num.biruza .ul-num__item {
+    background: #f3fffd;
+}
+.ul-num.biruza .ul-num__item span {
+    background: #04e0c3;
+}
+
+.ul-num.color .ul-num__item {
+    background: #feecee;
+}
+.ul-num.color > div:nth-child(2) {
+    background: #f3fffd;
+}
+.ul-num.color .ul-num__item span {
+    background: #d50414;
+}
+.ul-num.color div:nth-child(2)  span {
+    background: #04e0c3;
+}
+
+.regaly {
+}
+.regaly__item {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 1em;
+    margin-bottom: 20px;
+}
+.regaly__left {
+}
+.regaly__right {
+    font-family: Mundo, Times New Roman, Times, serif;
+    color: #202020;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+.regaly__right b {
+}
+
+
+.comment {
+    margin-bottom: 40px;
+    color:#202020;
+}
+.comment img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.comment__header {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    margin-bottom: 5px;
+}
+.comment__ava {
+    width: 45px;
+    margin-right: 15px;
+}
+.comment__ava img {
+    border-radius: 50%;
+}
+.comment__title {
+    margin-right: auto;
+
+}
+.comment__name {
+    font-size: 16px;
+    font-family: Roboto_condensed,Tahoma,Geneva,sans-serif;
+    font-weight: 700;
+}
+.comment__date {
+    font-size: 12px;
+    font-family: Roboto,Tahoma,Geneva,sans-serif;
+    font-weight: 400;
+}
+.comment__number {
+    font-size: 23px;
+    font-family: Roboto,Tahoma,Geneva,sans-serif;
+    font-weight: bolder;
+    color:#2e6d9d;
+}
+.comment__text img {
+    max-width: 300px;
+}
+.comment__text p {
+    font-size: 15px;
+    font-family: Roboto,Tahoma,Geneva,sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+.comment__text p a {
+    color:#2e6d9d;
+    font-weight: bold;
+}
+.magnet {
+    background: #2e6d9d;
+    display: block;
+    color: #fff;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    line-height: 38px;
+    height: 38px;
+    border-radius: 3px;
+    -webkit-transition: all 250ms ease;
+-moz-transition: all 250ms ease;
+-ms-transition: all 250ms ease;
+-o-transition: all 250ms ease;
+transition: all 250ms ease;
+box-shadow: 0 1px 4px 0 rgba(0,0,0,.3)
+}
+.magnet:hover,
+.magnet:active {
+    background: #2e6d9d;
+}
+
+
+
+
+
+
+
