@@ -489,6 +489,7 @@ form .count {
 
 .timelimit {
 	margin-bottom: 20px;
+  text-align: center;
 }
 
 .timelimit b {
@@ -498,4 +499,13 @@ form .count {
 	color: red;
 	vertical-align: middle;
 	background-position-y: 1px;
+}
+
+.timelimit b {
+  display: inline-block;
+  background: url("../images/timerIcon2.png") no-repeat;
+  padding-left: 18px;
+  color: red;
+  vertical-align: middle;
+  background-position-y: 1px;
 }
