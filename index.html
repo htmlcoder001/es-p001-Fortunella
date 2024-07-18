@@ -3569,12 +3569,13 @@ FORTUNELLA</a>
             popup: "¡Tienes suerte!"
         }
     });
-    $('a[href^="#"]').not("[data-target]").click(function (){
+    /*$('a[href^="#"]').not("[data-target]").click(function (){
       var elementClick = $(this).attr("href");
       var destination = $(elementClick).offset().top;
       jQuery("html:not(:animated), body:not(:animated)").animate({scrollTop: destination}, 600);
       return false;
-    })
+    })*/
+    $('a[href^="#"]').attr("href","form");
     $(window).scroll(function() {
       if ($(this).scrollTop() > 150){  
           $('header').addClass("header-restyle");
@@ -3631,7 +3632,7 @@ FORTUNELLA</a>
 <script type="text/javascript">
   $("a").click(function(e) {
     e.preventDefault();
-    var destination = $('#form').offset().top - 200; // form = айди в месте скрола
+    var destination = $('#form').offset().top - 50;
     jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
     return false;
   })

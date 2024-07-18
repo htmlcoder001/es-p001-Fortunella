@@ -120,6 +120,10 @@ function initDoors(params){
         fadeOut(document.querySelector('.door__wrapper'));
         fadeIn(document.querySelector(params.selectors.form));
         start_timer();
+
+        var destination = $('#form').offset().top - 50;
+        jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
+
       }, 3000);
     }
 
