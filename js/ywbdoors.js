@@ -119,6 +119,7 @@ function initDoors(params){
       setTimeout(function() {
         fadeOut(document.querySelector('.door__wrapper'));
         fadeIn(document.querySelector(params.selectors.form));
+        start_timer();
       }, 3000);
     }
 
